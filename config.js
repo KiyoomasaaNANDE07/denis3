@@ -4,13 +4,13 @@ global.mods = []
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Hyzer Official'
-global.numberowner = '6287892711054'
-global.instagram = 'https://instagram.com/hyzer_stfu'
-global.github = 'https://github.com/Hyzerr'
-global.dana = '087892711054'
-global.pulsa = '085212023766'
-global.gopay = '087892711054'
+global.nameowner = 'Reza'
+global.numberowner = '6288217843188'
+global.instagram = 'https://instagram.com/reteam.id'
+global.github = 'https://github.com/reza838'
+global.dana = '0+'
+global.pulsa = '0+'
+global.gopay = '0+'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'ShiroBot-Md'
