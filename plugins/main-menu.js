@@ -535,8 +535,8 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
            {
              quickReplyButton: {
-               displayText: 'Credits',
-               id: '.tqto',
+               displayText: 'Sc ini',
+               id: '.owner',
              }
            }]
          }
