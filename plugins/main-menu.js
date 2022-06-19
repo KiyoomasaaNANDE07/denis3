@@ -22,23 +22,6 @@ let moment = require('moment-timezone')
 //━━━━━━━━[ DEFAULT MENU ]━━━━━━━━//
 const defaultMenu = {
   before:`
-┌─「 *${global.namebot}* 」
-├ Hai, %name!
-├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)*
-├ [%xp4levelup]
-├ %totalexp XP secara Total
-│ 
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
-│⬡ Aktif selama ${uptime}
-│⬡ ${Object.keys(global.db.data.users).length} Pengguna
-│⬡ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-│⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-│⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-╰──────⬣
 ┌────「 *${name}* 」───⬣
 │⬡ Api : ${tag}
 │⬡ Limit : ${limit}
@@ -48,11 +31,35 @@ const defaultMenu = {
 │⬡ Time : ${wib}
 ╰──────⬣
 
-│
-├ Uptime: *%uptime (%muptime)*
-├ Database: %rtotalreg dari %totalreg
-├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-╰──────⬣
+*﹝ ʙᴏᴛ ɪɴғᴏ ﹞*
+*✘⃟💕 Name : %namabot*
+*✘⃟💕 Number : %nobot*
+*✘⃟💕 Prefix : [ multi prefix ]*
+*✘⃟💕 Owner :  %oname*
+
+               *﹝ ᴛɪᴍᴇ ɪɴғᴏ ﹞*
+*✘⃟🗞️ Date : %week %weton, %date M*
+*✘⃟🗞️ Date - islamic : %dateIslamic*
+*✘⃟🗞️ WIB : %wib* 
+*✘⃟🗞️ WITA : %wita* 
+*✘⃟🗞️ WIT : %wit*
+
+               *﹝ sᴇʀᴠᴇʀ ɪɴғᴏ ﹞* 
+*✘⃟💻 HostName : ${hostname()}*
+*✘⃟💻 Platform : ${platform()}*
+*✘⃟💻 CPU : ${cpuPer}%*
+*✘⃟💻 CPU Core : ${cpu.count()} Core*
+*✘⃟💻 Ram : ${format(totalmem() - freemem())} / ${format(totalmem())}*
+*✘⃟💻 Runtime : %uptime ( %muptime )*
+
+               *﹝ ᴄᴏᴍᴍᴀɴᴅ ɪɴғᴏ ﹞* 
+*✘⃟🎋 Command total : %totalcmd*
+*✘⃟🎋 Command hit : %all*
+*✘⃟🎋 Command success : %sall*
+
+               *﹝ ᴇᴠᴇɴᴛ ɪɴғᴏ ﹞*
+*✘⃟🌹 ${global.Evn}*
+*✘⃟🌹 ${global.timeEvn}*
 %readmore`.trimStart(), 
   header: '┌─「 %category 」',
   body: '│ ⫹⫺ %cmd %islimit %isPremium',
