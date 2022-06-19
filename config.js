@@ -9,7 +9,7 @@ global.numberowner = '6288217843188'
 global.instagram = 'https://instagram.com/reteam.id'
 global.github = 'https://github.com/reza838'
 global.dana = '0+'
-global.pulsa = '0+'
+global.pulsa = '083163989496'
 global.gopay = '0+'
 
 //=============『 Info Bot 』=================//
@@ -23,10 +23,10 @@ global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/8c471d45b6cedad43cf84.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'Nazi'
+global.wm = '乂 尺乇ㄒ乇卂爪 乂'
 global.watermark = wm
-global.wm2 = '                     「 ⁩N A Z I 」'
-global.wm3 = '⫹⫺ LOL HUMAN'
+global.wm2 = '                     「 ⁩ㄩ几| 丂ㄖᐯ|乇ㄒ 」'
+global.wm3 = '⫹⫺ 尺乇ㄒ乇卂爪'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
@@ -36,8 +36,8 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = '2022'
-global.author = '© Reza Temayang'
+global.packname = '➪𝚁𝚎𝚝𝚎𝚊𝚖.𝚒𝚍\n➪ig @reteam.id\n➪yt Reza Temayang\n➪creator 6288217843188'
+global.author = '𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
