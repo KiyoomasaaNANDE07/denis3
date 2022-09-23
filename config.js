@@ -4,16 +4,16 @@ global.mods = []
 global.prems = [] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Reza'
-global.numberowner = '6288217843188'
+global.nameowner = 'Denis'
+global.numberowner = '6288296831250'
 global.instagram = 'https://instagram.com/reteam.id'
 global.github = 'https://github.com/reza838'
-global.dana = '0+'
-global.pulsa = '083163989496'
-global.gopay = '0+'
+global.dana = '087793591508'
+global.pulsa = '087793591508'
+global.gopay = '087793591508'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Bot Wa'
+global.namebot = 'Denis Bot'
 global.gc = 'https://chat.whatsapp.com/JGbF9k7IFJtLNfcCYeJ821'
 global.web = 'https://github.com/reza838' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
